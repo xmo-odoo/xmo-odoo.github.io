@@ -1,0 +1,462 @@
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>&lt;no title&gt; &#8212; odoo master documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/style.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/patchqueue.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/jquery.min.js"></script>
+    <script src="_static/bootstrap.js"></script>
+    <script src="_static/doc.js"></script>
+    <script src="_static/jquery.noconflict.js"></script>
+    <script src="_static/patchqueue.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:500,600" rel="stylesheet">
+    <link rel="canonical" href="" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body><header class="o_main_header o_has_sub_nav o_inverted ">
+    <div class="o_main_header_main">
+      <a class="pull-left o_logo" href="/"></a>
+      <a href="#" class="o_mobile_menu_toggle visible-xs-block pull-right">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="mdi-navigation-menu"></span>
+      </a>
+      <div class="o_header_buttons">
+        <a href="http://www.odoo.com/trial" class="btn btn-primary">Start Now</a>
+      </div>
+      <ul class="o_primary_nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">Apps</a>
+          <div class="dropdown-menu o_secondary_nav">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-3 o_website_apps">
+                  <div class="o_nav_app_family">
+                    <span></span> Websites
+                    <div>Build great user experience</div>
+                  </div>
+                  <ul>
+                    <li><a href="https://www.odoo.com/page/website-builder">Website Builder</a></li>
+                    <li><a href="https://www.odoo.com/page/e-commerce">eCommerce</a></li>
+                    <li><a href="https://www.odoo.com/page/blog-engine">Blogs</a></li>
+                    <li><a href="https://www.odoo.com/page/community-builder">Forums</a></li>
+                    <li><a href="https://www.odoo.com/page/slides">Slides</a></li>
+                    <li><a href="https://adspike.odoo.com">SEA</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-3 o_sale_apps">
+                  <div class="o_nav_app_family">
+                    <span></span> Sales
+                    <div>Boost your success rate</div>
+                  </div>
+                  <ul>
+                    <li><a href="https://www.odoo.com/page/sales">Sales</a></li>
+                    <li><a href="https://www.odoo.com/page/crm">CRM</a></li>
+                    <li><a href="https://www.odoo.com/page/billing">Invoicing</a></li>
+                    <li class="dropdown">
+                      <a href="#0" class="dropdown-toggle">Point of Sale</a>
+                      <ul>
+                        <li><a href="https://www.odoo.com/page/point-of-sale">Shops</a></li>
+                        <li><a href="https://www.odoo.com/page/pos-restaurant">Restaurants</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="https://www.odoo.com/page/subscriptions">Subscriptions</a></li>
+                    <li><a href="https://www.odoo.com/page/sign">Sign</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-3 o_operation_apps">
+                  <div class="o_nav_app_family">
+                    <span></span> Operations
+                    <div>It's all about efficiency</div>
+                  </div>
+                  <ul>
+                    <li><a href="https://www.odoo.com/page/accounting">Accounting</a></li>
+                    <li><a href="https://www.odoo.com/page/project-management">Project</a></li>
+                    <li class="dropdown">
+                      <a href="#0" class="dropdown-toggle">Human Resources</a>
+                      <ul>
+                        <li><a href="https://www.odoo.com/page/recruitment">Recruitment</a></li>
+                        <li><a href="https://www.odoo.com/page/employees">Employees</a></li>
+                        <li><a href="https://www.odoo.com/page/expenses">Expenses</a></li>
+                        <li><a href="https://www.odoo.com/page/appraisal">Appraisal</a></li>
+                        <li><a href="https://www.odoo.com/page/fleet">Fleet</a></li>
+                        <li><a href="https://www.odoo.com/page/leaves">Leaves</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="https://www.odoo.com/page/warehouse">Inventory</a></li>
+                    <li><a href="https://www.odoo.com/page/purchase">Purchase</a></li>
+                    <li class="dropdown">
+                      <a href="#0" class="dropdown-toggle">Manufacturing</a>
+                      <ul>
+                        <li><a href="https://www.odoo.com/page/manufacturing">MRP</a></li>
+                        <li><a href="https://www.odoo.com/page/plm">PLM</a></li>
+                        <li><a href="https://www.odoo.com/page/maintenance">Maintenance</a></li>
+                        <li><a href="https://www.odoo.com/page/quality">Quality</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-3 o_productivity_apps">
+                  <div class="o_nav_app_family">
+                    <span></span> Productivity Tools
+                    <div>Great Tools = Happy People</div>
+                  </div>
+                  <ul>
+                    <li class="dropdown">
+                      <a href="#0" class="dropdown-toggle">Communication</a>
+                      <ul>
+                        <li><a href="https://www.odoo.com/page/discuss">Discuss</a></li>
+                        <li><a href="https://www.odoo.com/page/discuss-groups">Mailing Lists</a></li>
+                        <li><a href="https://www.odoo.com/page/notes">Notes</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Appointment</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="https://www.odoo.com/page/timesheet">Timesheet</a></li>
+                    <li><a href="https://www.odoo.com/page/email-marketing">Email Marketing</a></li>
+                    <li><a href="https://www.odoo.com/page/events">Events</a></li>
+                    <li><a href="https://www.odoo.com/page/survey">Survey</a></li>
+                    <li><a href="https://www.odoo.com/page/live-chat">Live Chat</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <a href="http://www.odoo.com/apps/modules" class="o_store_link"><i class="fa fa-cube fa-fw"></i> Third party apps</a>
+          </div>
+        </li>
+        <li><a href="https://www.odoo.com/page/tour">Tour</a></li>
+        <li><a href="https://www.odoo.com/pricing">Pricing</a></li>
+        <li><a href="https://www.odoo.com/page/docs">Docs</a></li>
+      </ul>
+    </div>
+    <nav class="navbar o_sub_nav">
+      <div class="container">
+        <div class="navbar-header visible-xs">
+            <button type="button" class="navbar-toggle collapsed text-left btn-block" data-toggle="collapse" data-target="#o_sub-menu" aria-expanded="false">
+              Navigate
+              <span class="mdi-hardware-keyboard-arrow-down pull-right"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="o_sub-menu">
+          <ol class="o_breadcrumb breadcrumb nav navbar-left">
+              
+              
+
+
+
+
+
+    
+    <li class="active"><a href="#">&lt;no title&gt;</a></li>
+
+              
+          </ol>
+
+          <div class="call-to-action navbar-right hidden-xs">
+            <a href="http://www.odoo.com/trial" class="btn btn-primary">Start Now</a>
+          </div>
+
+          <ul class="navbar-nav navbar-right nav o_sub_nav_actions">
+            
+              <li class="divider"></li>
+            
+
+            
+            
+
+
+            
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            
+
+            
+            
+
+<li><a href="https://www.odoo.com/documentation/user/14.0/index.html">User</a></li>
+<li><a href="https://www.odoo.com/documentation/14.0/index.html">Developer</a></li>
+<li><a href="https://www.odoo.com/documentation/14.0/setup/install.html">Installation</a></li>
+<li><a href="https://odoo.com/slides">eLearning</a></li>
+<li><a href="https://www.odoo.com/page/odoo-white-paper">White Papers</a></li>
+<li><a href="https://www.odoo.com/page/legal">Legal</a></li>
+<li id="searchbox" style="display: none; margin: 0 0 0 10px;" role="search">
+    <form class="search form-inline input-group-sm" action="search.html" method="get">
+        <input type="text" class="form-control" name="q" id="q" placeholder="Search..." />
+        <input type="hidden" name="area" value="default" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <button type="submit" value="Go" class="btn btn-default btn-sm">Go</button>
+    </form>
+</li>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+            
+
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header><div id="wrap" class="">
+    
+    
+    
+    <figure class="card top has_banner">
+      <span class="card-img" style="background-image: url('_static/banners/installing_odoo.jpg');"></span>
+      <div class="container text-center">
+        <h1> &lt;no title&gt; </h1>
+      </div>
+    </figure>
+    
+    
+    
+      <main class="container ">
+        
+        <div class="o_content row">
+          
+          <aside>
+            <div class="navbar-aside text-center">
+              <ul ></ul>
+              
+              <p class="gith-container"><a href="https://github.com/odoo/odoo/edit/master/doc/import.rst" class="gith-link">
+                  Edit on GitHub
+              </a></p>
+              
+            </div>
+          </aside>
+          
+          <article class="doc-body ">
+            
+            
+  <section class="py code-class"><h6 id="odoo.addons.base_import.models.base_import.ImportValidationError"><code><em >class </em>odoo.addons.base_import.models.base_import.ImportValidationError(<em><span class="n">message</span></em>, <em><span class="o">**</span><span class="n">kwargs</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L70" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >This class is made to correctly format all the different error types that can occur during the pre-validation of
+the import that is made before calling the data loading itself. The Error data structure is meant to copy the one
+of the errors raised during the data loading. It simplifies the error management at client side as all errors can be
+treated the same way.
+This exception is typically raised when there is an error during data parsing (image, int, dates, etc..) or if the
+user did not select at least one field to map with a column.</p></section><section class="py code-class"><h6 id="odoo.addons.base_import.models.base_import.Import"><code><em >class </em>odoo.addons.base_import.models.base_import.Import<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L135" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >This model is used to prepare the loading of data coming from a user file.
+Here is the process that is followed:
+0. The user selects a file to import
+A. File parsing and mapping suggestion (see “parse_preview” method)</p><blockquote ><p >A.1. Extract the current model’s importable fields tree (see “get_fields_tree”)
+A.2. Read the file (see “_read_file”) and extract header names and file length (used for batch import)
+A.3. Extract headers types from the data preview (10 first line of the file) (see “_extract_headers_types”)
+A.4. Try to find for each header a field to map with (see “_get_mapping_suggestions”)</p><blockquote ><ul ><li >First check the previously saved mappings between the header name and one of the model’s fields</li><li >If no mapping found, try an exact match comparison using fields technical names, labels and user language
+translated labels</li><li >If nothing found, try a fuzzy match using word distance between header name and fields tachnical
+names, labels and user language translated labels. Keep only the closest match.</li></ul></blockquote><p >A.5. Prepare examples for each columns using the first non null value from each column.
+A.6. Send the info back to the UI where the user can modify the suggested mapping.</p></blockquote><ol ><li ><dl ><dt >Execute the import: There are two import mode with uses the same process. (see “execute_import”)</dt><dd ><dl ><dt >B.1. Test import: Try to import but rollback the transaction. This allows the check errors during the import</dt><dd >process and allow the user to choose import options for the different encountered errors.</dd><dt >B.2. Real import: Try to import the file using the configured mapping and the eventual “error mapping options”.</dt><dd ><blockquote >If import encounters blocking errors, the transaction is rollbacked and the user is allowed
+to choose import options for the different errors.</blockquote><ul ><li >Get file data and fields to import into (see “_convert_import_data”)</li><li >Parse date, float and binary data (see “_parse_import_data”)</li><li >Handle multiple mapping -&gt; concatenate char/text/many2many columns mapped on the same field
+(see “_handle_multi_mapping”)</li><li >Handle fallback values for boolean and selection fields, in case input data does not match any allowed values.
+(see “_handle_fallback_values”)</li><li >Load data (see ir.model “load” method)</li><li >Rollback transaction if test mode or if encountered error.</li><li >Save mapping if any import is successful to ease later mapping suggestions</li><li >Return import result to the UI (success or errors if any)</li></ul></dd></dl></dd></dl></li></ol><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._convert_import_data"><code>_convert_import_data(<em><span class="n">fields</span></em>, <em><span class="n">options</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L937" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Extracts the input BaseModel and fields list (with
+<code >False</code>-y placeholders for fields to <em >not</em> import) into a
+format Model.import_data can use: a fields list without holes
+and the precisely matching data matrix</p><div class="code-fields"><div class="code-field"><div class="code-field-name">Parameters</div><div class="code-field-body"><strong >list</strong><strong >(</strong><strong >str|bool</strong><strong >)</strong> – fields</div></div><div class="code-field"><div class="code-field-name">Returns</div><div class="code-field-body">(data, fields)</div></div><div class="code-field"><div class="code-field-name">Return type</div><div class="code-field-body">(<a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference">list</a>(<a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference">list</a>(<a href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)" class="alert-link external reference">str</a>)), <a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference">list</a>(<a href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)" class="alert-link external reference">str</a>))</div></div><div class="code-field"><div class="code-field-name">Raises</div><div class="code-field-body"><a href="https://docs.python.org/3/library/exceptions.html#ValueError" title="(in Python v3.9)" class="alert-link external reference"><strong >ValueError</strong></a> – in case the import data could not be converted</div></div></div></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._deduplicate_mapping_suggestions"><code>_deduplicate_mapping_suggestions(<em><span class="n">mapping_suggestions</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L794" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >This method is meant to avoid multiple columns to be matched on the same field.
+Taking mapping_suggestions as input, it will check if multiple columns are mapped to the same field and will
+only keep the mapping that has the smallest distance. The other columns that were matched to the same field are
+removed from the mapping suggestions.</p><p >Hierarchy mapping is considered as advanced and is skipped during this deduplication process. We consider that
+multiple mapping on hierarchy mapping will not occur often and due to the fact that this won’t lead to any
+particular issues when a non ‘char/text’ field is selected more than once in the UI, we keep only the last
+selected mapping. The objective is to lighten the mapping suggestion process as much as we can.</p><div class="code-fields"><div class="code-field"><div class="code-field-name">Parameters</div><div class="code-field-body"><strong >mapping_suggestions</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.9)" class="alert-link external reference"><code >dict</code></a>) – { (column_index, header_name) : { ‘field_path’: [header_name], ‘distance’: word_distance }}</div></div></div></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._extract_header_types"><code>_extract_header_types(<em><span class="n">preview_values</span></em>, <em><span class="n">options</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L484" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Returns the potential field types, based on the preview values, using heuristics.
+This methods is only used for suggested mapping at 2 levels:
+1. for fuzzy mapping at file load -&gt; Execute the fuzzy mapping only on “most likely field types”
+2. For “Suggested fields” section in the fields mapping dropdown list at UI side.
+The following heuristic is used: If all preview values</p><blockquote ><ul ><li >Start with ‘__export__’: return id + relational field types</li><li >Can be cast into integer: return id + relational field types, integer, float and monetary</li><li >Can be cast into Boolean: return boolean</li><li >Can be cast into float: return float, monetary</li><li >Can be cast into date/datetime: return date / datetime</li><li >Cannot be cast into any of the previous types: return only text based fields</li></ul></blockquote><dl ><dt >:param preview_values</dt>[UNKNOWN NODE classifier]<dd >see “parse_preview” method for more details.</dd></dl><p >:param options : parsing options</p></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._extract_headers_types"><code>_extract_headers_types(<em><span class="n">headers</span></em>, <em><span class="n">preview</span></em>, <em><span class="n">options</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L598" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >For each column, this method will extract the potential data types based on the preview values</p><div class="code-fields"><div class="code-field"><div class="code-field-name">Parameters</div><div class="code-field-body"><ul ><li ><strong >headers</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference"><code >list</code></a>) – list of headers names. Used as part of key for returned headers_types to ease
+understanding of its usage</li><li ><strong >preview</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference"><code >list</code></a>) – list of the first file records (see “parse_preview” for more detail).
+E.g.: [ [“lead_name1”, “1”, “partner_id1”], [“lead_name2”, “2”, “partner_id2”], … ]</li><li ><strong >options</strong> – parsing options</li></ul></div></div><div class="code-field"><div class="code-field-name">Returns</div><div class="code-field-body"><p >dict headers_types: contains all the extracted header types for each header
+E.g.: {</p><blockquote >(header_index, header_name): [“char”, “text”, …],
+…</blockquote><p >}</p></div></div></div></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._filter_fields_by_types"><code>_filter_fields_by_types(<em><span class="n">model_fields_tree</span></em>, <em><span class="n">header_types</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L307" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Remove from model_fields_tree param all the fields and subfields that do not match the types in header_types</p><div class="code-fields"><div class="code-field"><div class="code-field-name">Param</div><div class="code-field-body">list[dict] model_fields_tree: Contains recursively all the importable fields of the target model.
+Generated in “get_fields_tree” method.</div></div><div class="code-field"><div class="code-field-name">Param</div><div class="code-field-body">list header_types: Contains the extracted fields types of the current header.
+Generated in “_extract_header_types” method.</div></div></div></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._get_distance"><code>_get_distance(<em><span class="n">a</span></em>, <em><span class="n">b</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L756" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >This method return an indice that reflexes the distance between the two given string a and b.
+This indice is a score between 0 and 1 where:</p><blockquote >0 = exact match
+1 = completely different strings</blockquote></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._get_mapping_suggestion"><code>_get_mapping_suggestion(<em><span class="n">header</span></em>, <em><span class="n">fields_tree</span></em>, <em><span class="n">header_types</span></em>, <em><span class="n">mapping_fields</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L622" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Attempts to match a given header to a field of the imported model.</p><dl ><dt >We can distinguish 2 types of header format:</dt><dd ><ul ><li ><dl ><dt >simple header string that aim to directly match a field of the target model</dt><dd >E.g.: “lead_id” or “Opportunities” or “description”</dd></dl></li><li ><dl ><dt >composed ‘/’ joined header string that aim to match a field of a relation field of the target model (= subfield)</dt><dd >E.g.: ‘lead_id/description’ aim to match the field ‘description’ of the field lead_id.</dd></dl></li></ul></dd></dl><p >When returning result, to ease further treatments, the result is returned as a list, where each element of
+the list is a field or a sub-field of the preceding field.</p><blockquote ><ul ><li >[“lead_id”] for simple case = simple matching</li><li >[“lead_id”, “description”] for composed case = hierarchy matching</li></ul></blockquote><dl ><dt >Mapping suggestion is found using the following heuristic:</dt><dd ><ul ><li >first we check if there was a saved mapping by the user</li><li >then try to make an exact match on the field technical name / english label / translated label</li><li >finally, try the “fuzzy match”: word distance between the header title and the
+field technical name / english label / translated label, using the lowest result. The field used for
+the fuzzy match are based on the field types we extracted from the header data (see “_extract_header_types”).</li></ul></dd></dl><p >For subfields, use the same logic.</p><dl ><dt >Word distance is a score between 0 and 1 to express the distance between two char strings where:</dt><dd >0 = exact match
+1 = completely different strings</dd></dl><p >In order to keep only one column matched per field, we return the distance. That distance will be used
+during the deduplicate process (see “_deduplicate_mapping_suggestions”) and only the mapping with the
+smallest distance will be kept in case of multiple mapping on the same field.
+Note that we don’t need to return the distance in case of hierachy mapping as we consider that
+as an advanced behaviour. The deduplicate process will ignore hierarchy mapping.
+The user will have to manually select on which field he wants to map what in case of mapping duplicates
+for sub-fields.</p><div class="code-fields"><div class="code-field"><div class="code-field-name">Parameters</div><div class="code-field-body"><ul ><li ><strong >header</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)" class="alert-link external reference"><code >str</code></a>) – header name from the file</li><li ><strong >fields_tree</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference"><code >list</code></a>) – list of all the field of the target model
+Coming from “get_fields_tree” method
+E.g: [ { ‘name’: ‘fieldName’, ‘string’: ‘fieldLabel’, fields: [ { ‘name’: ‘subfieldName’, …} ]} , … ]</li><li ><strong >header_types</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference"><code >list</code></a>) – Extracted field types for each column in the parsed file, based on its data content.
+Coming from “_extract_header_types” method
+E.g.: [‘int’, ‘float’, ‘char’, ‘many2one’, …]</li><li ><strong >mapping_fields</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.9)" class="alert-link external reference"><code >dict</code></a>) – contains the previously saved mapping between header and field for the current model.
+E.g.: { header_name: field_name }</li></ul></div></div><div class="code-field"><div class="code-field-name">Returns</div><div class="code-field-body">if the header couldn’t be matched : an empty dict
+else: a dict with the field path and the distance between header and the matched field.</div></div><div class="code-field"><div class="code-field-name">Return type</div><div class="code-field-body"><p >dict(field_path + Word distance)
+In case of simple matching : {‘field_path’: [field_name], distance: word_distance}</p><blockquote >e.g.: {‘field_path’: [‘lead_id’], distance: 0.23254}</blockquote><dl ><dt >In case of hierarchy matching</dt>[UNKNOWN NODE classifier]<dd >e.g.: {‘field_path’: [‘lead_id’, ‘description’]}</dd></dl></div></div></div></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._get_mapping_suggestions"><code>_get_mapping_suggestions(<em><span class="n">headers</span></em>, <em><span class="n">header_types</span></em>, <em><span class="n">fields_tree</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L763" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Attempts to match the imported model’s fields to the
+titles of the parsed CSV file, if the file is supposed to have
+headers.</p><p >Returns a dict mapping cell indices to key paths in the <code >fields</code> tree.</p><div class="code-fields"><div class="code-field"><div class="code-field-name">Parameters</div><div class="code-field-body"><ul ><li ><strong >headers</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference"><code >list</code></a>) – titles of the parsed file</li><li ><strong >header_types</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.9)" class="alert-link external reference"><code >dict</code></a>) – extracted types for each column in the parsed file.
+E.g.: { (header_index, header_name): [‘int’, ‘float’, ‘char’, ‘many2one’,…], … }</li><li ><strong >fields_tree</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference"><code >list</code></a>) – list of the target model’s fields
+E.g.: [ { ‘name’: ‘fieldName’, ‘string’: ‘fieldLabel’, fields: [ { ‘name’: ‘subfieldName’, …} ]} , … ]</li></ul></div></div><div class="code-field"><div class="code-field-name">Returns</div><div class="code-field-body"><p >(dict(tuple: list[str])) mapping_suggestions
+E.g.: {</p><blockquote ><dl ><dt >(header_index, header_name): {</dt><dd >‘field_path’: [‘child_id’,’name’],
+‘distance’: 0</dd></dl></blockquote><p >}</p></div></div></div></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._handle_fallback_values"><code>_handle_fallback_values(<em><span class="n">import_field</span></em>, <em><span class="n">input_file_data</span></em>, <em><span class="n">fallback_values</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L1354" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >If there are fallback values, this method will replace the input file data value if it does not match the
+possible values for the given field. This is only valid for boolean and selection fields.</p><p >Note: We can consider that we need to retrieve the selection values for all the fields in fallback_values,
+as if they are present, it’s because there was already a conflict during first import run and user had to
+select a fallback value for the field.</p><div class="code-fields"><div class="code-field"><div class="code-field-name">Param</div><div class="code-field-body">list import_field: ordered list of field that have been matched to import data</div></div><div class="code-field"><div class="code-field-name">Param</div><div class="code-field-body">list input_file_data: ordered list of values (list) that need to be imported in the given import_fields</div></div><div class="code-field"><div class="code-field-name">Param</div><div class="code-field-body">dict fallback_values: contains all the fields that have been tagged by the user to use a specific</div></div></div><dl ><dt >fallback value in case the value to import does not match values accepted by the field (selection or boolean)</dt><dd ><dl ><dt >E.g.: {</dt><dd ><dl ><dt >‘fieldName’: {</dt><dd >‘fallback_value’: fallback_value,
+‘field_model’: field_model,
+‘field_type’: field_type</dd></dl><p >},
+‘state’: {</p><blockquote >‘fallback_value’: ‘draft’,
+‘field_model’: field_model,
+‘field_type’: ‘selection’</blockquote><p >},
+‘active’: {</p><blockquote >‘fallback_value’: ‘true’,
+‘field_model’: field_model,
+‘field_type’: ‘boolean’</blockquote><p >}</p></dd></dl><p >}</p></dd></dl></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._handle_multi_mapping"><code>_handle_multi_mapping(<em><span class="n">import_fields</span></em>, <em><span class="n">input_file_data</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L1296" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >This method handles multiple mapping on the same field.
+It will return the list of the mapped fields and the concatenated data for each field:</p><blockquote >-&gt; if two column are mapped on the same text or char field, they will end up
+in only one column, concatenated via space (char) or new line (text).
+-&gt; The same logic is used for many2many fields. Multiple values can be imported if they are separated by “,”.</blockquote><dl ><dt >Input/output Example:</dt><dd ><dl ><dt >input_file_data: [</dt><dd >[“Value part 1”, “1”, “res.partner_id1”, “Value part 2”],
+[“I am”, “1”, “res.partner_id1”, “Batman”],</dd></dl><p >]
+import_fields: [desc, some_number, partner, desc]</p><dl ><dt >output merged_data: [</dt><dd >[“Value part 1 Value part 2”, “1”, “res.partner_id1”],
+[“I am Batman”, “1”, “res.partner_id1”],</dd></dl><p >]
+fields: [desc, some_number, partner]</p></dd></dl></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._import_image_by_url"><code>_import_image_by_url(<em><span class="n">url</span></em>, <em><span class="n">session</span></em>, <em><span class="n">field</span></em>, <em><span class="n">line_number</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L1141" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Imports an image by URL</p><div class="code-fields"><div class="code-field"><div class="code-field-name">Parameters</div><div class="code-field-body"><ul ><li ><strong >url</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)" class="alert-link external reference"><code >str</code></a>) – the original field value</li><li ><strong >session</strong> (<code >requests.Session</code>) – </li><li ><strong >field</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)" class="alert-link external reference"><code >str</code></a>) – name of the field (for logging/debugging)</li><li ><strong >line_number</strong> (<a href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.9)" class="alert-link external reference"><code >int</code></a>) – 0-indexed line number within the imported file (for logging/debugging)</li></ul></div></div><div class="code-field"><div class="code-field-name">Returns</div><div class="code-field-body">the replacement value</div></div><div class="code-field"><div class="code-field-name">Return type</div><div class="code-field-body"><a href="https://docs.python.org/3/library/stdtypes.html#bytes" title="(in Python v3.9)" class="alert-link external reference">bytes</a></div></div></div></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._infer_separators"><code>_infer_separators(<em><span class="n">value</span></em>, <em><span class="n">options</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L1029" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Try to infer the shape of the separators: if there are two
+different “non-numberic” characters in the number, the
+former/duplicated one would be grouping (“thousands” separator) and
+the latter would be the decimal separator. The decimal separator
+should furthermore be unique.</p></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._parse_import_data"><code>_parse_import_data(<em><span class="n">data</span></em>, <em><span class="n">import_fields</span></em>, <em><span class="n">options</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L1058" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Lauch first call to _parse_import_data_recursive with an
+empty prefix. _parse_import_data_recursive will be run
+recursively for each relational field.</p></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._read_csv"><code>_read_csv(<em><span class="n">options</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L429" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Returns file length and a CSV-parsed list of all non-empty lines in the file.
+:throws csv.Error: if an error is detected during CSV parsing</p></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._read_file"><code>_read_file(<em><span class="n">options</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L326" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Dispatch to specific method to read file content, according to its mimetype or file type
+:param options : dict of reading options (quoting, separator, …)</p></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._read_ods"><code>_read_ods(<em><span class="n">options</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L414" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Read file length and content using ODSReader custom lib</p></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._read_xls"><code>_read_xls(<em><span class="n">options</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L363" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Read file content, using xlrd lib</p></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import._read_xlsx"><code>_read_xlsx(<em><span class="n">options</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L363" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Read file content, using xlrd lib</p></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import.execute_import"><code>execute_import(<em><span class="n">fields</span></em>, <em><span class="n">columns</span></em>, <em><span class="n">options</span></em>, <em><span class="n">dryrun</span><span class="o">=</span><span class="default_value">False</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L1193" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Actual execution of the import</p><div class="code-fields"><div class="code-field"><div class="code-field-name">Parameters</div><div class="code-field-body"><ul ><li ><strong >fields</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference"><code >list</code></a><code >(</code><code >str|bool</code><code >)</code>) – import mapping: maps each column to a field,
+<code >False</code> for the columns to ignore</li><li ><strong >columns</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference"><code >list</code></a><code >(</code><code >str|bool</code><code >)</code>) – columns label</li><li ><strong >options</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.9)" class="alert-link external reference"><code >dict</code></a>) – </li><li ><strong >dryrun</strong> (<a href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)" class="alert-link external reference"><code >bool</code></a>) – performs all import operations (and
+validations) but rollbacks writes, allows
+getting as much errors as possible without
+the risk of clobbering the database.</li></ul></div></div><div class="code-field"><div class="code-field-name">Returns</div><div class="code-field-body">A list of errors. If the list is empty the import
+executed fully and correctly. If the list is
+non-empty it contains dicts with 3 keys <code >type</code> the
+type of error (<code >error|warning</code>); <code >message</code> the
+error message associated with the error (a string)
+and <code >record</code> the data which failed to import (or
+<code >false</code> if that data isn’t available or provided)</div></div><div class="code-field"><div class="code-field-name">Return type</div><div class="code-field-body"><a href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.9)" class="alert-link external reference">dict</a>(ids: list(<a href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.9)" class="alert-link external reference">int</a>), messages: list({type, message, record}))</div></div></div></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import.get_fields_tree"><code>get_fields_tree(<em><span class="n">model</span></em>, <em><span class="n">depth</span><span class="o">=</span><span class="default_value">3</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L184" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Recursively get fields for the provided model (through
+fields_get) and filter them according to importability</p><p >The output format is a list of <code >Field</code>, with <code >Field</code>
+defined as:</p><section class="py code-class"><h6 id="odoo.addons.base_import.models.base_import.Import.Field"><code><em >class </em>Field</code></h6><section class="py code-attribute"><h6 id="odoo.addons.base_import.models.base_import.Import.Field.id"><code>id(<em><span class="n">str</span></em>)</code></h6><p >A non-unique identifier for the field, used to compute
+the span of the <code >required</code> attribute: if multiple
+<code >required</code> fields have the same id, only one of them
+is necessary.</p></section><section class="py code-attribute"><h6 id="odoo.addons.base_import.models.base_import.Import.Field.name"><code>name(<em><span class="n">str</span></em>)</code></h6><p >The field’s logical (Odoo) name within the scope of
+its parent.</p></section><section class="py code-attribute"><h6 id="odoo.addons.base_import.models.base_import.Import.Field.string"><code>string(<em><span class="n">str</span></em>)</code></h6><p >The field’s human-readable name (<code >@string</code>)</p></section><section class="py code-attribute"><h6 id="odoo.addons.base_import.models.base_import.Import.Field.required"><code>required(<em><span class="n">bool</span></em>)</code></h6><p >Whether the field is marked as required in the
+model. Clients must provide non-empty import values
+for all required fields or the import will error out.</p></section><section class="py code-attribute"><h6 id="odoo.addons.base_import.models.base_import.Import.Field.fields"><code>fields(<em>list(Field)</em>)</code></h6><p >The current field’s subfields. The database and
+external identifiers for m2o and m2m fields; a
+filtered and transformed fields_get for o2m fields (to
+a variable depth defined by <code >depth</code>).</p><p >Fields with no sub-fields will have an empty list of
+sub-fields.</p></section><section class="py code-attribute"><h6 id="odoo.addons.base_import.models.base_import.Import.Field.model_name"><code>model_name(<em><span class="n">str</span></em>)</code></h6><p >Used in the Odoo Field Tooltip on the import view
+and to get the model of the field of the related field(s).
+Name of the current field’s model.</p></section><section class="py code-attribute"><h6 id="odoo.addons.base_import.models.base_import.Import.Field.comodel_name"><code>comodel_name(<em><span class="n">str</span></em>)</code></h6><p >Used in the Odoo Field Tooltip on the import view
+and to get the model of the field of the related field(s).
+Name of the current field’s comodel, i.e. if the field is a relation field.</p></section></section><p >Structure example for ‘crm.team’ model for returned importable_fields:
+[</p><blockquote ><dl ><dt >{‘name’: ‘message_ids’, ‘string’: ‘Messages’, ‘model_name’: ‘crm.team’, ‘comodel_name’: ‘mail.message’, ‘fields’: [</dt><dd >{‘name’: ‘moderation_status’, ‘string’: ‘Moderation Status’, ‘model_name’: ‘mail.message’, ‘fields’: []},
+{‘name’: ‘body’, ‘string’: ‘Contents’, ‘model_name’: ‘mail.message’, ‘fields’ : []}</dd></dl><p >]},
+{{‘name’: ‘name’, ‘string’: ‘Sales Team’, ‘model_name’: ‘crm.team’, ‘fields’ : []}</p></blockquote><p >]</p><div class="code-fields"><div class="code-field"><div class="code-field-name">Parameters</div><div class="code-field-body"><ul ><li ><strong >model</strong> (<a href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)" class="alert-link external reference"><code >str</code></a>) – name of the model to get fields form</li><li ><strong >depth</strong> (<a href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.9)" class="alert-link external reference"><code >int</code></a>) – depth of recursion into o2m fields</li></ul></div></div></div></section><section class="py code-method"><h6 id="odoo.addons.base_import.models.base_import.Import.parse_preview"><code>parse_preview(<em><span class="n">options</span></em>, <em><span class="n">count</span><span class="o">=</span><span class="default_value">10</span></em>)<a href="https://github.com/odoo/odoo/blob/master/addons/base_import/models/base_import.py#L824" class="alert-link external reference"><span class="viewcode-link">[source]</span></a></code></h6><p >Generates a preview of the uploaded files, and performs
+fields-matching between the import’s file data and the model’s
+columns.</p><p >If the headers are not requested (not options.has_headers),
+returned <code >matches</code> and <code >headers</code> are both <code >False</code>.</p><div class="code-fields"><div class="code-field"><div class="code-field-name">Parameters</div><div class="code-field-body"><ul ><li ><strong >count</strong> (<a href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.9)" class="alert-link external reference"><code >int</code></a>) – number of preview lines to generate</li><li ><strong >options</strong> (<code >{str</code><code >, </code><a href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)" class="alert-link external reference"><code >str</code></a><code >, </code><a href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)" class="alert-link external reference"><code >str</code></a><code >, </code><code >bool}</code>) – format-specific options.
+CSV: {quoting, separator, headers}</li></ul></div></div><div class="code-field"><div class="code-field-name">Returns</div><div class="code-field-body">{fields, matches, headers, preview} | {error, preview}</div></div><div class="code-field"><div class="code-field-name">Return type</div><div class="code-field-body">{dict(str: dict(..)), <a href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.9)" class="alert-link external reference">dict</a>(<a href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.9)" class="alert-link external reference">int</a>, <a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference">list</a>(<a href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)" class="alert-link external reference">str</a>)), <a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference">list</a>(<a href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)" class="alert-link external reference">str</a>), <a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference">list</a>(<a href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)" class="alert-link external reference">list</a>(<a href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)" class="alert-link external reference">str</a>))} | {str, str}</div></div></div></section></section>
+
+          </article>
+        </div>
+        
+        <div id="mask"></div>
+      </main>
+  </div>
+
+  <div class="floating_action_container">
+    <a id="floating_action" class="ripple" href="#">
+      <i class="mdi-action-explore"></i>
+    </a>
+    <div id="floating_action_menu">
+      <span class="bubble"></span>
+      <ul class="list-group content">
+        <li class="list-group-item ripple"><a>Cras justo odio</a></li>
+        <li class="list-group-item ripple"><a>Dapibus ac facilisis in</a></li>
+        <li class="list-group-item ripple"><a>Morbi leo risus</a></li>
+        <li class="list-group-item ripple"><a>Porta ac consectetur ac</a></li>
+        <li class="list-group-item ripple"><a>Vestibulum at eros</a></li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <div id="footer" class="container">
+      <span class="o_logo o_logo_inverse center-block o_footer_logo"></span>
+      <div class="row">
+        <div class="col-sm-7 col-md-7 col-lg-6">
+          <div class="row">
+            <div class="col-xs-6 col-sm-4">
+              <span class="menu_title">Community</span>
+              <ul>
+                <li><a href="https://github.com/odoo/odoo">Github</a></li>
+                <li><a href="http://www.odoo.com/page/download">Download</a></li>
+                <li class="divider"></li>
+                <li><a href="https://runbot.odoo.com">Runbot</a></li>
+                <li><a href="https://github.com/odoo/odoo/wiki/Translations">Translations</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.odoo.com/page/odoo-community">Mailing Lists</a></li>
+                <li><a href="http://www.odoo.com/forum/help-1">Forum</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+              <span class="menu_title">Services</span>
+              <ul>
+                <li><a href="https://www.odoo.sh">Odoo Cloud Platform</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.odoo.com/help">Support</a></li>
+                <li><a href="https://upgrade.odoo.com">Upgrade</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.odoo.com/partners">Find a partner</a></li>
+                <li><a href="http://www.odoo.com/page/become-a-partner">Become a partner</a></li>
+                <li class="divider"></li>
+                <li><a href="http://training.odoo.com/courses/odoo-functional">Training Center</a></li>
+                <li><a href="http://www.odoo.com/page/education-program">Education</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.odoo.com/page/security">Security</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 mb64">
+              <span class="menu_title">About us</span>
+              <ul>
+                <li><a href="http://www.odoo.com/page/about-us">Our company</a></li>
+                <li><a href="http://www.odoo.com/page/contactus">Contact</a></li>
+                <li class="divider" />
+                <li><a href="http://www.odoo.com/event">Events</a></li>
+                <li><a href="http://www.odoo.com/blog">Blog</a></li>
+                <li><a href="http://www.odoo.com/blog/6">Customers</a></li>
+                <li class="divider" />
+                <li><a href="http://www.odoo.com/jobs">Jobs</a></li>
+                <li class="divider" />
+                <li><a href="http://www.odoo.com/page/legal">Legal</a> | <a href="http://www.odoo.com/privacy">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-5 col-md-4 col-md-offset-1 col-lg-5 col-lg-offset-1">
+          <p>
+            <small>
+              Odoo is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.
+              <br/><br/>
+              Odoo's unique value proposition is to be at the same time very easy to use and fully integrated.
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="o_footer_bottom">
+      <div class="container">
+        <a class="small" href="http://www.odoo.com/page/website-builder">Website made with <span class="o_logo o_logo_inverse o_logo_15"></span></a>
+        <div class="social-links pull-right">
+          <a href="http://www.odoo.com/web/about/facebook"><i class="fa fa-facebook"></i></a>
+          <a href="http://www.odoo.com/web/about/twitter"><i class="fa fa-twitter"></i></a>
+          <a href="http://www.odoo.com/web/about/linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="mailto:info@odoo.com"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
